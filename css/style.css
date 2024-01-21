@@ -23,26 +23,11 @@ body {
 * {box-sizing: border-box;}
 
 
-.small-image {
-  max-width: 400px;
-  max-height: 250px;
-}
-
-.rotated {
-  transform: rotate(-45deg);
-  border: none;
-}
-
-.no-background {
-  background-color: transparent;
-  border-color: transparent;
-}
-
 .bg-img {
   margin: 0;
   padding: 0;
   /* The image used */
-  background-image: url("../img/background-image.jpg");
+  background-image: url("../img/background-image-2.jpg");
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -58,14 +43,20 @@ body {
 /* Position the navbar container inside the image */
 .container {
   position: absolute;
-  margin: 20px;
+  margin: 0;
   width: auto;
+  top: 0;
 }
 
 .navigation-bar {
   overflow: hidden;
-  background-color: transparent;
-  width: 100px;
+  /*background-color: transparent;*/
+  /*background-color: #9A6057; */
+  width: 200px;
+  height: 100vh;
+  background-image: url("../img/margin-background-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /*
 .navigation-bar h2 {
@@ -80,40 +71,62 @@ body {
 }
 
 .navigation-bar li {
+  list-style: none;
   margin-bottom: 10px;
 }
 
 
 .navigation-bar a {
-  float: left;
+  /* float: left;*/
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 14px;
+  font-family: 'Amandine', Garamond, Arial, Helvetica, sans-serif;
+  white-space: nowrap;
 }
 
 .navigation-bar a:hover {
-  background-color: #007bff;
-  color: white;
+  /*background-color: #007bff;
+  color: #f589dc;*/
+  color: #e0a2b5;
 }
 
 /* Submenu styles */
 .submenu ul {
   list-style: none;
-  display: none;
+  #display: none;
+  display: block;
   padding-left: 20px;
 }
 
-.submenu:hover ul {
+/*.submenu:hover ul {
   display: block;
-}
+}*/
 
 .content {
-  margin-left: 200px;
+  margin-left: 300px;
   padding: 20px;
 }
 
+/* Things that I have used but I don't need now */
+
+/*.small-image {
+  max-width: 400px;
+  max-height: 250px;
+}
+
+.rotated {
+  transform: rotate(-45deg);
+  border: none;
+}
+
+.no-background {
+  background-color: transparent;
+  border-color: transparent;
+}
+*/
 
 /*
  * Remove text-shadow in selection highlight:
