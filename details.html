@@ -10,14 +10,16 @@
 
 <body>
   <div id="background-image" class="bg-img">
+    <!--<img src="./img/background/background-empty-1.jpeg" class="container-img">-->
     <script type="module">
       import { includeNavigationMenu } from './js/navigation-bar.js';
       includeNavigationMenu("background-image")
     </script>
 
-    <div class="content">
-      <h1>Agenda</h1>
-    </div>
+    <script type="module">
+      import { loadDetails } from './js/load-details.js';
+      loadDetails("background-image")
+    </script>
   </div>
 
 </body>

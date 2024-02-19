@@ -27,7 +27,7 @@ body {
   margin: 0;
   padding: 0;
   /* The image used */
-  background-image: url("../img/background/wedding-web-background-4.jpeg");
+  background-image: url("../img/background/background-empty-1.jpeg");
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -45,7 +45,17 @@ body {
   position: absolute;
   margin: 0;
   width: auto;
+  overflow: hidden;
   top: 0;
+}
+
+.container-img {
+  width: 100%;
+  height: 100%;
+  /*object-fit: cover;*/
+  object-fit: contain; /* Ensures the entire image is visible while maintaining aspect ratio */
+  max-width: 100%; /* Allows the image to resize smaller as the container becomes smaller */
+  max-height: 100%;
 }
 
 .navigation-bar {
@@ -54,7 +64,9 @@ body {
   /*background-color: #9A6057; */
   width: 200px;
   height: 100vh;
-  background-image: url("../img/margin-background-2.jpg");
+  /*background-image: url("../img/margin-background-2.jpg");*/
+  opacity: 60%;
+  background-color: #c66966;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -83,7 +95,8 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 14px;
-  font-family: 'Amandine', Garamond, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-family: 'Shree Devanagari 714', Garamond, Arial, Helvetica, sans-serif;
   white-space: nowrap;
 }
 
@@ -110,44 +123,26 @@ body {
   padding: 20px;
 }
 
-/* Things that I have used but I don't need now */
-
-/*.small-image {
-  max-width: 400px;
-  max-height: 250px;
+/* Language flags*/
+.language-selector {
+  display: flex;
+  justify-content: center; /* Adjust as needed */
+  align-items: center;
+  opacity: 100%;
 }
 
-.rotated {
-  transform: rotate(-45deg);
-  border: none;
+.language-option {
+  margin: 0 1px; /* Adjust spacing between flags */
 }
 
-.no-background {
-  background-color: transparent;
-  border-color: transparent;
-}
-*/
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Customize the background color to match your design.
- */
-/*
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
+.language-option img {
+  width: 20px; /* Adjust flag size */
+  height: auto; /* Maintain aspect ratio */
+  opacity: 100%;
 }
 
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-*/
-/*
- * A better looking default horizontal rule
- */
+
+
 
 hr {
   display: block;

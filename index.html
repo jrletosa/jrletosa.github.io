@@ -14,8 +14,9 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <!--<link rel="icon" href="/favicon.ico" sizes="any">-->
+  <!--<link rel="icon" href="/icon.svg" type="image/svg+xml"> -->
+  <link rel="icon" href="/icon.png">
   <link rel="apple-touch-icon" href="icon.png">
 
   <link rel="manifest" href="site.webmanifest">
@@ -27,14 +28,27 @@
 
 <body>
     <div id="background-image" class="bg-img">
-      <!--<script type="module">
-        import { includeNavigationMenu } from './js/navigation-bar.js';
-        includeNavigationMenu("background-image")
-      </script>-->
+      <img src="./img/background/wedding-web-background-4.jpeg"
+        usemap="#image-map"
+        class="container-img">
 
-      <!--<div class="content">
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-      </div>-->
+      <map name="image-map">
+        <area target="" alt="" title="" href="#" onclick="redirectToRSVP()" coords="753,68,1079,176,1010,380,880,339,889,163,722,157,752,68" shape="poly">
+        <area target="" alt="" title="" href="#" onclick="redirectToDetails()" coords="513,187,305,301,501,618" shape="poly">
+      </map>
+      <script>
+        function redirectToRSVP() {
+          window.location.href = 'rsvp.html';
+        }
+
+        function redirectToDetails() {
+          window.location.href = 'details.html';
+        }
+      </script>
+      <!--<script type="module">
+        import { includeClickableBackground } from './js/clickable-background.js';
+        includeClickableBackground("background-image")
+      </script>-->
     </div>
 
     <script type="module">

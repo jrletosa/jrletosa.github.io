@@ -1,5 +1,5 @@
 // navigation-bar.js
-import {getTranslation} from './translations.js'
+import {getTranslation, changeLanguage} from './translations.js'
 
 function includeNavigationMenu(targetElementId) {
   var targetElement = document.getElementById(targetElementId);
@@ -13,23 +13,18 @@ function includeNavigationMenu(targetElementId) {
   div.innerHTML = `
       <div class="navigation-bar">
         <div class="greenhouse-container">
-          <img src="../img/green-house.png" alt="Home" onclick="redirectToIndex()">
+          <img src="../img/greenhouse-logo.png" alt="Home" onclick="redirectToIndex()">
         </div>
+        <div class="language-selector">
+          <a href="#" class="language-option" onclick="changeLanguage('en')"><img src="../img/flags/gb.svg" alt="English"></a>
+          <a href="#" class="language-option" onclick="changeLanguage('es')"><img src="../img/flags/es.svg" alt="Spanish"></a>
+          <a href="#" class="language-option" onclick="changeLanguage('pl')"><img src="../img/flags/pl.svg" alt="Polish"></a>
+          <a href="#" class="language-option" onclick="changeLanguage('sv')"><img src="../img/flags/se.svg" alt="Swedish"></a>
+        </div>
+
         <li><a href="#" onclick="redirectToIndex()">${getTranslation("Home")}</a></li>
-        <li><a href="#">${getTranslation("Wedding Day")}</a></li>
-        <li class="submenu">
-          <ul>
-            <li><a href="#" onclick="redirectToWeddingLocation()">${getTranslation("Location")}</a></li>
-            <li><a href="#" onclick="redirectToWeddingAgenda()">${getTranslation("Agenda")}</a></li>
-            <li><a href="#" onclick="redirectToWeddingDressCode()">${getTranslation("Dress Code")}</a></li>
-          </ul>
-        </li>
-        <li><a href="#">${getTranslation("Brunch Day")}</a></li>
-        <li class="submenu">
-          <ul>
-            <li><a href="#" onclick="redirectToIndex()">${getTranslation("Brunch - Time & Location")}</a></li>
-          </ul>
-        </li>
+        <li><a href="#" onclick="redirectToDetails()">${getTranslation("Details")}</a></li>
+        <li><a href="#" onclick="redirectToRSVP()">${getTranslation("RSVP")}</a></li>
       </div>
   `;
 
@@ -38,31 +33,22 @@ function includeNavigationMenu(targetElementId) {
   includeCss("../css/green_house.css");
 
   window.redirectToIndex = redirectToIndex;
-  window.redirectToAbout = redirectToAbout;
-  window.redirectToWeddingLocation = redirectToWeddingLocation;
-  window.redirectToWeddingAgenda = redirectToWeddingAgenda;
-  window.redirectToWeddingDressCode = redirectToWeddingDressCode;
+  window.redirectToDetails = redirectToDetails;
+  window.redirectToRSVP = redirectToRSVP;
+  window.changeLanguage = changeLanguage;
+
 }
 
 function redirectToIndex() {
   window.location.href = 'index.html';
 }
 
-function redirectToWeddingLocation() {
-  window.location.href = 'wedding-location.html';
+function redirectToDetails() {
+  window.location.href = 'details.html';
 }
 
-function redirectToWeddingAgenda() {
-  window.location.href = 'wedding-agenda.html';
-}
-
-function redirectToWeddingDressCode() {
-  window.location.href = 'wedding-dress-code.html';
-}
-
-// jrletosa remove
-function redirectToAbout() {
-    window.location.href = 'about.html';
+function redirectToRSVP() {
+  window.location.href = 'rsvp.html';
 }
 
 function includeCss(href) {
