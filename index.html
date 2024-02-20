@@ -28,13 +28,14 @@
 
 <body>
     <div id="background-image" class="bg-img">
-      <img src="./img/background/wedding-web-background-4.jpeg"
+      <script src="./js/recompute-map-coordinates.js"></script>
+      <img id="map-image" src="./img/background/wedding-web-background-4.jpeg"
         usemap="#image-map"
         class="container-img">
 
       <map name="image-map">
-        <area target="" alt="" title="" href="#" onclick="redirectToRSVP()" coords="753,68,1079,176,1010,380,880,339,889,163,722,157,752,68" shape="poly">
-        <area target="" alt="" title="" href="#" onclick="redirectToDetails()" coords="513,187,305,301,501,618" shape="poly">
+        <area id="details-area" target="" alt="" title="" href="#" onclick="redirectToDetails()" coords="508,200,334,601" shape="rect">
+        <area id="rsvp-details" target="" alt="" title="" href="#" onclick="redirectToRSVP()" coords="729,78,1055,356" shape="rect">
       </map>
       <script>
         function redirectToRSVP() {
@@ -45,18 +46,12 @@
           window.location.href = 'details.html';
         }
       </script>
-      <!--<script type="module">
-        import { includeClickableBackground } from './js/clickable-background.js';
-        includeClickableBackground("background-image")
-      </script>-->
     </div>
 
     <script type="module">
       import { changeLanguage } from './js/translations.js';
       window.changeLanguage = changeLanguage;
     </script>
-  <button onclick="changeLanguage('en')">Switch to English</button>
-  <button onclick="changeLanguage('es')">Cambiar a español</button>
 </body>
 
 </html>
