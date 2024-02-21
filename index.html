@@ -7,6 +7,7 @@
   <title></title>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://db.onlinewebfonts.com/c/d02befc8fdd8e5315fb21fa7f38fd55a?family=Shree+Devanagari+714" rel="stylesheet">
+  <link href="https://db.onlinewebfonts.com/c/a1d4db3866c9351f60824edba95db3bb?family=COM4t+Fine+Regular" rel="stylesheet">
   <meta name="description" content="">
 
   <meta property="og:title" content="">
@@ -27,14 +28,14 @@
 </head>
 
 <body>
-    <div id="background-image" class="bg-img">
-      <script src="./js/recompute-map-coordinates.js"></script>
+    <!--<div id="background-image" class="bg-img">-->
+    <div id="background-image">
       <img id="map-image" src="./img/background/wedding-web-background-4.jpeg"
         usemap="#image-map"
         class="container-img">
 
       <map name="image-map">
-        <area id="details-area" target="" alt="" title="" href="#" onclick="redirectToDetails()" coords="508,200,334,601" shape="rect">
+        <area id="details-area"  target="" alt="" title="" href="#" onclick="redirectToDetails()" coords="508,200,334,601" shape="rect">
         <area id="rsvp-details" target="" alt="" title="" href="#" onclick="redirectToRSVP()" coords="729,78,1055,356" shape="rect">
       </map>
       <script>
@@ -46,6 +47,7 @@
           window.location.href = 'details.html';
         }
       </script>
+      <script src="./js/recompute-map-coordinates.js"></script>
     </div>
 
     <script type="module">

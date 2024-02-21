@@ -12,14 +12,14 @@ function includeNavigationMenu(targetElementId) {
   div.classList.add("container");
   div.innerHTML = `
       <div class="navigation-bar">
-        <div class="greenhouse-container">
-          <img src="../img/greenhouse-logo.png" alt="Home" onclick="redirectToIndex()">
-        </div>
         <div class="language-selector">
           <a href="#" class="language-option" onclick="changeLanguage('en')"><img src="../img/flags/gb.svg" alt="English"></a>
           <a href="#" class="language-option" onclick="changeLanguage('es')"><img src="../img/flags/es.svg" alt="Spanish"></a>
           <a href="#" class="language-option" onclick="changeLanguage('pl')"><img src="../img/flags/pl.svg" alt="Polish"></a>
           <a href="#" class="language-option" onclick="changeLanguage('sv')"><img src="../img/flags/se.svg" alt="Swedish"></a>
+        </div>
+        <div class="greenhouse-container">
+          <img src="../img/greenhouse-logo-white.png" alt="Home" onclick="redirectToIndex()">
         </div>
 
         <li><a href="#" onclick="redirectToIndex()">${getTranslation("Home")}</a></li>

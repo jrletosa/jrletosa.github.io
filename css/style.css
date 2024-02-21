@@ -18,7 +18,8 @@ html {
 }
 
 body {
-  font-family: "Shree Devanagari 714", Helvetica, sans-serif;
+  /*font-family: "Shree Devanagari 714", Helvetica, sans-serif;*/
+  font-family: "COM4t Fine Regular", "Comic Sans MS", sans-serif;
 }
 * {box-sizing: border-box;}
 
@@ -37,7 +38,7 @@ body {
 
   /* Needed to position the navbar */
   position: relative;
-  height: 100vh;
+  height: 200vh;
   overflow: hidden;
 }
 
@@ -64,7 +65,7 @@ body {
   /*background-color: transparent;*/
   /*background-color: #9A6057; */
   width: 200px;
-  height: 100vh;
+  height: 200vh;
   /*background-image: url("../img/margin-background-2.jpg");*/
   opacity: 60%;
   background-color: #c66966;
@@ -97,7 +98,8 @@ body {
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
-  font-family: 'Shree Devanagari 714', Garamond, Arial, Helvetica, sans-serif;
+  /*font-family: 'COM4t+Fine+Regular', 'Shree Devanagari 714', Garamond, Arial, Helvetica, sans-serif;*/
+  font-family: 'COM4t Fine Regular', 'Comic Sans MS';
   white-space: nowrap;
 }
 
@@ -142,8 +144,10 @@ body {
   opacity: 100%;
 }
 
-
-
+area {
+    cursor: pointer;
+    display:block;
+}
 
 hr {
   display: block;
