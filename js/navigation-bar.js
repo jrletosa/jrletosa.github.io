@@ -22,6 +22,7 @@ function includeNavigationMenu(targetElementId) {
           <img src="../img/greenhouse-logo-white.png" alt="Home" onclick="redirectToIndex()">
         </div>
 
+        <p></p>
         <li><a href="#" onclick="redirectToIndex()">${getTranslation("Home")}</a></li>
         <li><a href="#" onclick="redirectToDetails()">${getTranslation("Details")}</a></li>
         <li><a href="#" onclick="redirectToRSVP()">${getTranslation("RSVP")}</a></li>
