@@ -18,8 +18,7 @@ html {
 }
 
 body {
-  /*font-family: "Shree Devanagari 714", Helvetica, sans-serif;*/
-  font-family: "COM4t Fine Regular", "Comic Sans MS", sans-serif;
+  font-family: "Shree Devanagari 714", Helvetica, sans-serif;
 }
 * {box-sizing: border-box;}
 
@@ -98,8 +97,7 @@ body {
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
-  /*font-family: 'COM4t+Fine+Regular', 'Shree Devanagari 714', Garamond, Arial, Helvetica, sans-serif;*/
-  font-family: 'COM4t Fine Regular', 'Comic Sans MS';
+  font-family: 'Shree Devanagari 714', Garamond, Arial, Helvetica, sans-serif;
   white-space: nowrap;
 }
 
