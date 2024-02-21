@@ -6,7 +6,7 @@ export function getTranslation(key) {
   const translations = {
     "en": {
       "Home": "Home",
-      "Details": "Details",
+      "Agenda": "Agenda",
       "Ceremony": "Ceremony",
       "Mingle & Photo shoot": "Mingle & Photo shoot",
       "Toast": "Toast",
@@ -29,7 +29,7 @@ export function getTranslation(key) {
     },
     "es": {
       "Home": "Inicio",
-      "Details": "Detalles",
+      "Details": "Agenda",
       "Ceremony": "Ceremonia",
       "Mingle & Photo shoot": "Bienvenida & Sesión de fotos",
       "Toast": "Brindis",

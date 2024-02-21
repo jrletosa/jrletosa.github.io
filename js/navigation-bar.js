@@ -18,13 +18,16 @@ function includeNavigationMenu(targetElementId) {
           <a href="#" class="language-option" onclick="changeLanguage('pl')"><img src="../img/flags/pl.svg" alt="Polish"></a>
           <a href="#" class="language-option" onclick="changeLanguage('sv')"><img src="../img/flags/se.svg" alt="Swedish"></a>
         </div>
+        <p></p>
         <div class="greenhouse-container">
           <img src="../img/greenhouse-logo-white.png" alt="Home" onclick="redirectToIndex()">
         </div>
 
         <p></p>
+        <p></p>
+        <p></p>
         <li><a href="#" onclick="redirectToIndex()">${getTranslation("Home")}</a></li>
-        <li><a href="#" onclick="redirectToDetails()">${getTranslation("Details")}</a></li>
+        <li><a href="#" onclick="redirectToAgenda()">${getTranslation("Agenda")}</a></li>
         <li><a href="#" onclick="redirectToRSVP()">${getTranslation("RSVP")}</a></li>
       </div>
   `;
@@ -34,7 +37,7 @@ function includeNavigationMenu(targetElementId) {
   includeCss("../css/green_house.css");
 
   window.redirectToIndex = redirectToIndex;
-  window.redirectToDetails = redirectToDetails;
+  window.redirectToAgenda = redirectToAgenda;
   window.redirectToRSVP = redirectToRSVP;
   window.changeLanguage = changeLanguage;
 
@@ -44,8 +47,8 @@ function redirectToIndex() {
   window.location.href = 'index.html';
 }
 
-function redirectToDetails() {
-  window.location.href = 'details.html';
+function redirectToAgenda() {
+  window.location.href = 'agenda.html';
 }
 
 function redirectToRSVP() {
