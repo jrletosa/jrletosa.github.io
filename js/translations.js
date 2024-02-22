@@ -25,6 +25,7 @@ export function getTranslation(key) {
       "Dance": "Dance",
       "Dance-text": "Join us on the dance floor as we celebrate love and joy!",
       "Picnic": "Picnic",
+      "Speech": "Speech",
       "Speeches & Performances": "Speeches & Performances",
       "Speech-text": `If you would like to give a speech, performance or provide
         entertainment, please contact our toastmaster, Anna Díaz at +46707231206
@@ -60,6 +61,7 @@ export function getTranslation(key) {
       "Dance": "Baile",
       "Dance-text": "¡Únete a nosotros en la pista de baile mientras celebramos!",
       "Picnic": "Picnic",
+      "Speech": "Discursos",
       "Speeches & Performances": "Discursos y Actuaciones",
       "Speech-text": `Si quieres dar un discurso, realizar una actuación o proporcionar 
         entretenimiento, por favor, ponte en contacto con nuestra maestra de ceremonias, 
@@ -88,12 +90,13 @@ export function getTranslation(key) {
       "Toast": "Skål",
       "Toast-text": "Paret återvänder!",
       "Dinner": "Middag",
-        "Dinner-text": "Utforska växthusen och hitta din plats",
+      "Dinner-text": "Utforska växthusen och hitta din plats",
       "Cake": "Tårta",
       "Cake-text": "Nu blir det tårta!",
       "Dance": "Dans",
       "Dance-text": "Följ med oss på dansgolvet när vi firar kärlek och glädje!",
       "Picnic": "Picknick",
+      "Speech": "Tal",
       "Speeches & Performances": "Tal & Framträdanden",
       "Speech-text": `Om du vill hälla ett tal, uppträda eller underhälla, vänligen kontakta var toastmaster, 
         Anna Diaz pa +46707231206 eller anna_diaz_@hotmail.com.`,
@@ -128,6 +131,7 @@ export function getTranslation(key) {
         "Dance-text": "Dołącz do nas na parkiecie w czasie gdy świętujemy miłość i radość!",
         "Picnic": "Piknik",
         "Ceremony": "Ceremonia",
+        "Speech": "Przemowy",
         "Speeches & Performances": "Przemowy i Wystepy",
         "Speech-text": `Jesli chciarbys wygtosic premowe, wystapic lub dostarczy rozrywke albo zabawe,
           prosze skontaktowac sie z naszym Toastmasterem, Anna Diaz pod numerem +46707231206 lub anna_diaz_@hotmail.com`,
