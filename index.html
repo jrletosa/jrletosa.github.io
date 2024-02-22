@@ -36,7 +36,7 @@
 
       <map name="image-map">
         <area id="details-area"  target="" alt="" title="" href="#" onclick="redirectToAgenda()" coords="508,200,334,601" shape="rect">
-        <area id="rsvp-details" target="" alt="" title="" href="#" onclick="redirectToRSVP()" coords="729,78,1055,356" shape="rect">
+        <area id="rsvp-details" target="" alt="" title="" href="#" onclick="redirectToRSVP()" onmouseover="changeBackground('./img/background/highlight-rsvp.jpeg')" onmouseout="changeBackground('./img/background/wedding-web-background-4.jpeg')" coords="729,78,1055,356" shape="rect">
       </map>
       <script>
         function redirectToRSVP() {
@@ -45,6 +45,10 @@
 
         function redirectToAgenda() {
           window.location.href = 'agenda.html';
+        }
+
+        function changeBackground(image) {
+          document.getElementById('map-image').src = image;
         }
       </script>
       <script src="./js/recompute-map-coordinates.js"></script>

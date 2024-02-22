@@ -1,7 +1,7 @@
 
 import {getTranslation} from './translations.js'
 
-function loadDetails(targetElementId) {
+function loadAgenda(targetElementId) {
   var targetElement = document.getElementById(targetElementId);
   if (!targetElement) {
     console.error("Target element not found");
@@ -17,7 +17,7 @@ function loadDetails(targetElementId) {
       
       <div class="space-between-h2-content"></div>
       
-      <p>16:30 - <b>Arrival:</b><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFeel free to enjoy the gardens and find your way to the orchard</p>
+      <p>16:30 - <b>Arrival</b><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFeel free to enjoy the gardens and find your way to the orchard</p>
       
       <p>17:00 - <b>${getTranslation("Ceremony starts")}</b><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPlease be seated</p>
       
@@ -46,4 +46,4 @@ function loadDetails(targetElementId) {
   targetElement.appendChild(div);
 }
 
-export { loadDetails }
+export { loadAgenda }
