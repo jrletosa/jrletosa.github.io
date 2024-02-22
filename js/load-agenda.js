@@ -38,6 +38,8 @@ function loadAgenda(targetElementId) {
       
       <h2>Sunday &nbsp&nbsp2&nbsp&nbsp ${getTranslation("Picnic")}</h2>
       
+      <div class="space-between-h2-content"></div>
+      
       <p>14:00 - <b>${getTranslation("Picnic")}</b></p>
       
       <br><p><b>${getTranslation("Location")}: </b><a href="https://maps.app.goo.gl/7Wm8cVSgYnBnZhey7">Our garden</a></p>
