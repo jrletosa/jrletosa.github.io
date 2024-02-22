@@ -28,8 +28,8 @@ function includeNavigationMenu(targetElementId) {
         <p></p>
         <li><a href="#" onclick="redirectToIndex()">${getTranslation("Home")}</a></li>
         <li><a href="#" onclick="redirectToAgenda()">${getTranslation("Agenda")}</a></li>
-        <li><a href="#" onclick="redirectToKidsInfo()">${getTranslation("Kids")}</a></li>
         <li><a href="#" onclick="redirectToSpeechInfo()">${getTranslation("Speech")}</a></li>
+        <li><a href="#" onclick="redirectToKidsInfo()">${getTranslation("Kids")}</a></li>
         <li><a href="#" onclick="redirectToRSVP()">${getTranslation("RSVP")}</a></li>
       </div>
   `;
