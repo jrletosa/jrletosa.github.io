@@ -36,7 +36,7 @@ function loadAgenda(targetElementId) {
       
       <div class="space-between-h2"></div>
       
-      <h2>Sunday &nbsp&nbsp2&nbsp&nbsp ${getTranslation("Picnic")}</h2>
+      <h2>${getTranslation("Sunday")} &nbsp&nbsp2&nbsp&nbsp ${getTranslation("Picnic")}</h2>
       
       <div class="space-between-h2-content"></div>
       
