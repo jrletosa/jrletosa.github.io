@@ -137,8 +137,9 @@ export function getTranslation(key) {
         "Ceremony": "Ceremonia",
         "Speeches": "Przemowy",
         "Speeches & Performances": "Przemowy i Wystepy",
-        "Speech-text": `Jesli chciarbys wygtosic premowe, wystapic lub dostarczy rozrywke albo zabawe,
-          prosze skontaktowac sie z naszym Toastmasterem, Anna Diaz pod numerem +46707231206 lub anna_diaz_@hotmail.com`,
+        "Speech-text": `Jeśli chciałbyś wygłosić przemowę, wystąpić lub dostarczyć rozrywkę albo zabawe, 
+            proszę skontaktować się z naszym Toastmasterem, Anną Diaz pod numerem 
+            +46707231206 lub anna_diaz_@hotmail.com`,
         "Kids": "Dzieci",
         "Kids-text": `Z checia zaprosilibysmy wszystkie dzieci naszych gosci, niestety nie jest to mozliwe,
           I zaproszenie dotyczy tylko dorostych.`,

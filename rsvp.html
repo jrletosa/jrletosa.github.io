@@ -5,6 +5,10 @@
   <meta http-equiv="refresh" content="0;url=https://forms.gle/Pqr3neqcoryxL89f9">
     <title>Redirecting...</title>
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://db.onlinewebfonts.com/c/6944a5ff3c604841edb16384eff7621e?family=Amelaryas+Personal+use" rel="stylesheet">
+
+  <link rel="icon" href="/icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
 
   <script src="js/navigation-bar.js"></script>
 </head>
@@ -16,9 +20,10 @@
       includeNavigationMenu("background-image")
     </script>
 
-    <div class="content">
-      <h1>RSVP</h1>
-    </div>
+    <script type="module">
+      import { loadRSVP } from './js/load-rsvp.js';
+      loadRSVP("background-image")
+    </script>
   </div>
 
 </body>
