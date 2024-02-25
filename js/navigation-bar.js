@@ -30,6 +30,7 @@ function includeNavigationMenu(targetElementId) {
         <li><a href="#" onclick="redirectToAgenda()">${getTranslation("Agenda")}</a></li>
         <li><a href="#" onclick="redirectToSpeechInfo()">${getTranslation("Speeches")}</a></li>
         <li><a href="#" onclick="redirectToKidsInfo()">${getTranslation("Kids")}</a></li>
+        <li><a href="#" onclick="redirectToHoneyMoonInfo()">${getTranslation("Honey Moon")}</a></li>
         <li><a href="#" onclick="redirectToRSVP()">${getTranslation("RSVP")}</a></li>
       </div>
   `;
@@ -42,6 +43,7 @@ function includeNavigationMenu(targetElementId) {
   window.redirectToAgenda = redirectToAgenda;
   window.redirectToKidsInfo = redirectToKidsInfo;
   window.redirectToSpeechInfo = redirectToSpeechInfo;
+  window.redirectToHoneyMoonInfo = redirectToHoneyMoonInfo;
   window.redirectToRSVP = redirectToRSVP;
   window.changeLanguage = changeLanguage;
 
@@ -65,6 +67,10 @@ function redirectToSpeechInfo() {
 
 function redirectToRSVP() {
   window.location.href = 'rsvp.html';
+}
+
+function redirectToHoneyMoonInfo() {
+  window.location.href = 'honeymoonupgrades.html';
 }
 
 function includeCss(href) {

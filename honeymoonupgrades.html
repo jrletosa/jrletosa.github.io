@@ -1,60 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <title>Soon...</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    * {
-      line-height: 1.2;
-      margin: 0;
-    }
+  <meta charset="UTF-8">
+  <title>About page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://db.onlinewebfonts.com/c/6944a5ff3c604841edb16384eff7621e?family=Amelaryas+Personal+use" rel="stylesheet">
 
-    html {
-      color: #888;
-      display: table;
-      font-family: sans-serif;
-      height: 100%;
-      text-align: center;
-      width: 100%;
-    }
+  <link rel="icon" href="/icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
 
-    body {
-      display: table-cell;
-      vertical-align: middle;
-      margin: 2em auto;
-    }
-
-    h1 {
-      color: #555;
-      font-size: 2em;
-      font-weight: 400;
-    }
-
-    p {
-      margin: 0 auto;
-      width: 280px;
-    }
-
-    @media only screen and (max-width: 280px) {
-
-      body,
-      p {
-        width: 95%;
-      }
-
-      h1 {
-        font-size: 1.5em;
-        margin: 0 0 0.3em;
-      }
-
-    }
-  </style>
+  <script src="js/navigation-bar.js"></script>
 </head>
 
 <body>
-</body>
+  <div id="background-image" class="bg-img">
+    <script type="module">
+      import { includeNavigationMenu } from './js/navigation-bar.js';
+      includeNavigationMenu("background-image")
+    </script>
 
+    <script type="module">
+      import { loadHoneyMoonInfo } from './js/load-honey-moon-info.js';
+      loadHoneyMoonInfo("background-image")
+    </script>
+  </div>
+
+</body>
 </html>
-<!-- IE needs 512+ bytes: https://docs.microsoft.com/archive/blogs/ieinternals/friendly-http-error-pages -->

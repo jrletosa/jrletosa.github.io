@@ -76,6 +76,7 @@ export function getTranslation(key) {
       "Gifts-text": `Todo lo que deseamos es tenerte en nuestra boda. Si, de todas formas, quieres hacer un regalo, 
         apreciaremos pequeñas contribuciones para mejorar nuestra luna de miel. Si deseas contribuir, visita `,
       "Location": "Lugar",
+      "Honey-moon-text": "Honey Moon"
     },
     "sv": {
       "Home": "Hem",
@@ -83,7 +84,7 @@ export function getTranslation(key) {
       "Wedding Weekend": "Bröllopshelg",
       "Saturday": "Lördag",
       "Sunday": "Söndag",
-      "Saying Yes": "Säger Ja",
+      "Saying Yes": "Vi säger Ja",
       "Arrival": "Ankomst",
       "Arrival-text": "Njut av trädgården och hitta din plats i äppelträdgården",
       "Ceremony starts": "Ceremoni",
