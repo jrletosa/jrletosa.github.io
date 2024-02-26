@@ -30,7 +30,7 @@ function includeNavigationMenu(targetElementId) {
         <li><a href="#" onclick="redirectToAgenda()">${getTranslation("Agenda")}</a></li>
         <li><a href="#" onclick="redirectToSpeechInfo()">${getTranslation("Speeches")}</a></li>
         <li><a href="#" onclick="redirectToKidsInfo()">${getTranslation("Kids")}</a></li>
-        <li><a href="#" onclick="redirectToHoneyMoonInfo()">${getTranslation("Honey Moon")}</a></li>
+        <li><a href="#" onclick="redirectToHoneyMoonInfo()">${getTranslation("Honeymoon")}</a></li>
         <li><a href="#" onclick="redirectToRSVP()">${getTranslation("RSVP")}</a></li>
       </div>
   `;

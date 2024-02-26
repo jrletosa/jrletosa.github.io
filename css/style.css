@@ -35,6 +35,10 @@ h2 {
   margin-left: 50px;
 }
 
+h3 {
+  font-family: 'Amelaryas Personal use', sans-serif;
+}
+
 .space-between-h2-content {
   margin-top: 50px;
 }
@@ -175,6 +179,31 @@ area {
     cursor: pointer;
     display:block;
 }
+
+.honeymoon-upgrades-area {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left; /* Horizontally center the child */
+  align-items: center;
+  margin-bottom: 40px;
+  width: 100%; /* Ensure the container takes up the available width */
+  max-width: 100%; /* Ensure the container does not exceed its parent's width */
+  height: 100%; /* Allow the container's height to adjust based on its content */
+}
+
+.honeymoon-upgrades-area img {
+  width: 350px;
+  height: auto;
+  opacity: 100%;
+  margin-right: 50px;
+  margin-bottom: 50px;
+
+  max-width: 100%; /* Ensure the image does not exceed the container's width */
+  max-height: 100%; /* Ensure the image does not exceed the container's height */
+  object-fit: contain;
+}
+
 
 hr {
   display: block;
