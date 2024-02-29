@@ -13,8 +13,7 @@ function loadHoneyMoonInfo(targetElementId) {
   div.innerHTML = `
     <h1>Honeymoon Upgrades</h1>
     
-    
-    <h3>Some inspiration to make our trip more memorable</h3>
+    <h3>${getTranslation("Some inspiration to make our trip more memorable")}</h3>
     
     <div class="space-between-h2-content"></div>
     
