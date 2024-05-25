@@ -29,7 +29,7 @@ function includeNavigationMenu(targetElementId) {
         <li><a href="#" onclick="redirectToIndex()">${getTranslation("Home")}</a></li>
         <li><a href="#" onclick="redirectToAgenda()">${getTranslation("Agenda")}</a></li>
         <li><a href="#" onclick="redirectToSpeechInfo()">${getTranslation("Speeches")}</a></li>
-        <li><a href="#" onclick="redirectToKidsInfo()">${getTranslation("Kids")}</a></li>
+        <!--<li><a href="#" onclick="redirectToKidsInfo()">${getTranslation("Kids")}</a></li>-->
         <li><a href="#" onclick="redirectToHoneyMoonInfo()">${getTranslation("Honeymoon")}</a></li>
         <li><a href="#" onclick="redirectToRSVP()">${getTranslation("RSVP")}</a></li>
       </div>
@@ -41,7 +41,7 @@ function includeNavigationMenu(targetElementId) {
 
   window.redirectToIndex = redirectToIndex;
   window.redirectToAgenda = redirectToAgenda;
-  window.redirectToKidsInfo = redirectToKidsInfo;
+  //window.redirectToKidsInfo = redirectToKidsInfo;
   window.redirectToSpeechInfo = redirectToSpeechInfo;
   window.redirectToHoneyMoonInfo = redirectToHoneyMoonInfo;
   window.redirectToRSVP = redirectToRSVP;

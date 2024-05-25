@@ -13,17 +13,17 @@ function loadHoneyMoonInfo(targetElementId) {
   div.innerHTML = `
     <h1>Honeymoon Upgrades</h1>
     
-    <h3>${getTranslation("Some inspiration to make our trip more memorable")}</h3>
+    <!--<h3>${getTranslation("Some inspiration to make our trip more memorable")}</h3>
     
-    <div class="space-between-h2-content"></div>
+    <div class="space-between-h2-content"></div>-->
     
-    <div class="honeymoon-upgrades-area">
+    <!--<div class="honeymoon-upgrades-area">
         <img src="../img/upgrades/breakfast.jpeg" alt="">
         <img src="../img/upgrades/romantic-dinner.jpeg" alt="">
         <img src="../img/upgrades/ocean-adventure.jpeg" alt="">
         <img src="../img/upgrades/hotel-room.jpeg" alt="">
         <img src="../img/upgrades/flight.jpeg" alt="">
-    </div>
+    </div>-->
 `;
 
   targetElement.appendChild(div);
