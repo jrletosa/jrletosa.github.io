@@ -37,8 +37,7 @@ export function getTranslation(key) {
         let's discuss alternative solutions`,
       "Gifts": "Gifts",
       "Gifts-text": `Having you come to our wedding is all we wish for. If you still would like to gift something
-        small honeymoon upgrades would feel truly special. For those who'd like to contribute,
-        visit `,
+        small honeymoon upgrades would feel truly special.`,
       "Location": "Location",
         "Some inspiration to make our trip more memorable": "Some inspiration to make our trip more memorable",
     },
@@ -75,7 +74,7 @@ export function getTranslation(key) {
         Contáctanos para buscar soluciones alternativas.`,
       "Gifts": "Regalos",
       "Gifts-text": `Todo lo que deseamos es tenerte en nuestra boda. Si, de todas formas, quieres hacer un regalo, 
-        apreciaremos pequeñas contribuciones para mejorar nuestra luna de miel. Si deseas contribuir, visita `,
+        apreciaremos pequeñas contribuciones para mejorar nuestra luna de miel.`,
       "Location": "Lugar",
       "Honey-moon-text": "Honey Moon",
       "Some inspiration to make our trip more memorable": "Inspiración para hacer nuestro viaje memorable",
@@ -112,7 +111,7 @@ export function getTranslation(key) {
         let's discuss alternative solutions`,
       "Gifts": "Presenter",
       "Gifts-text": `Er närvaro pả vảrt bröllop är allt vi önskar. Vill ni ända uppmärksamma vảr dag med
-        en gava uppskattar vi smả uppgraderingar för vảr smekmänad. För er som önskar bidra,besök `,
+        en gava uppskattar vi smả uppgraderingar för vảr smekmänad.`,
       "Location": "Plats",
         "Some inspiration to make our trip more memorable": "Idéer för att göra vår resa minnesvärd",
     },
@@ -150,8 +149,7 @@ export function getTranslation(key) {
       "Location": "Lokalizacja",
         "Gifts": "Prezenty",
         "Gifts-text": `Wasza obecność na naszym ślubie to wszystko czego pragniemy. Jeśli chcielibyście
-          jednak podarować nam coś, docenilibyśmy małe ulepszenia naszego miesiąca miodowego. Dla tych, którzy chcieliby
-          przyczynić się do naszej podróży, odwiedź `,
+          jednak podarować nam coś, docenilibyśmy małe ulepszenia naszego miesiąca miodowego.`,
         "Some inspiration to make our trip more memorable": "Inspiracje, aby nasza podróż była niezapomniana",
     }
   }
