@@ -20,6 +20,7 @@ function loadHoneyMoonInfo(targetElementId) {
     <li>${getTranslation('honeymoon-breakfast')}</li>
     <li>${getTranslation('honeymoon-ocean')}</li>
     <li>${getTranslation('honeymoon-dinner')}</li>
+    <p class="list-emoji">4</p>
 `;
 
   targetElement.appendChild(div);
