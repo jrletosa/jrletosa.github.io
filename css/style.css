@@ -51,7 +51,15 @@ p {
   font-family: 'Shree Devanagari 714', Helvetica, sans-serif;
   font-size: 1.2em;
   margin-left: 50px;
-  margin-bottom: -10px;
+  margin-bottom: 10px;
+}
+
+li {
+  font-family: 'Shree Devanagari 714', Helvetica, sans-serif;
+  font-size: 1.2em;
+  margin-top: 5px;
+  margin-left: 50px;
+  /*margin-bottom: 10px;*/
 }
 
 .bg-img {

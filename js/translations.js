@@ -36,10 +36,13 @@ export function getTranslation(key) {
         and the invitation is for adults only. Nursing babies are, of course, welcome.
         let's discuss alternative solutions`,
       "Gifts": "Gifts",
-      "Gifts-text": `Having you come to our wedding is all we wish for. If you still would like to gift something
-        small honeymoon upgrades would feel truly special.`,
+      "Gifts-text": `Having you come to our wedding is all we wish for. If you still would like to gift something,
+        small honeymoon upgrades would feel truly special. Some ideas:`,
       "Location": "Location",
-        "Some inspiration to make our trip more memorable": "Some inspiration to make our trip more memorable",
+      "Some inspiration to make our trip more memorable": "Some inspiration to make our trip more memorable",
+      "honeymoon-breakfast": "Breakfast in the room",
+      "honeymoon-ocean": "Ocean adventure",
+      "honeymoon-dinner": "Romantic dinner"
     },
     "es": {
       "Home": "Inicio",
@@ -74,10 +77,13 @@ export function getTranslation(key) {
         Contáctanos para buscar soluciones alternativas.`,
       "Gifts": "Regalos",
       "Gifts-text": `Todo lo que deseamos es tenerte en nuestra boda. Si, de todas formas, quieres hacer un regalo, 
-        apreciaremos pequeñas contribuciones para mejorar nuestra luna de miel.`,
+        apreciaremos pequeñas contribuciones para mejorar nuestra luna de miel. Algunas ideas:`,
       "Location": "Lugar",
       "Honey-moon-text": "Honey Moon",
       "Some inspiration to make our trip more memorable": "Inspiración para hacer nuestro viaje memorable",
+      "honeymoon-breakfast": "Desayuno en la habitación",
+      "honeymoon-ocean": "Aventura en el océano",
+      "honeymoon-dinner": "Cena romántica"
     },
     "sv": {
       "Home": "Hem",
@@ -111,9 +117,12 @@ export function getTranslation(key) {
         let's discuss alternative solutions`,
       "Gifts": "Presenter",
       "Gifts-text": `Er närvaro pả vảrt bröllop är allt vi önskar. Vill ni ända uppmärksamma vảr dag med
-        en gava uppskattar vi smả uppgraderingar för vảr smekmänad.`,
+        en gava uppskattar vi smả uppgraderingar för vảr smekmänad. Några idéer:`,
       "Location": "Plats",
         "Some inspiration to make our trip more memorable": "Idéer för att göra vår resa minnesvärd",
+      "honeymoon-breakfast": "Frukost på rummet",
+      "honeymoon-ocean": "Havsupplevelse",
+      "honeymoon-dinner": "Romantisk middag"
     },
     "pl": {
         "Home": "Home",
@@ -147,10 +156,13 @@ export function getTranslation(key) {
         "Kids-text": `Z checia zaprosilibysmy wszystkie dzieci naszych gosci, niestety nie jest to mozliwe,
           I zaproszenie dotyczy tylko dorostych.`,
       "Location": "Lokalizacja",
-        "Gifts": "Prezenty",
-        "Gifts-text": `Wasza obecność na naszym ślubie to wszystko czego pragniemy. Jeśli chcielibyście
-          jednak podarować nam coś, docenilibyśmy małe ulepszenia naszego miesiąca miodowego.`,
-        "Some inspiration to make our trip more memorable": "Inspiracje, aby nasza podróż była niezapomniana",
+      "Gifts": "Prezenty",
+      "Gifts-text": `Wasza obecność na naszym ślubie to wszystko czego pragniemy. Jeśli chcielibyście
+          jednak podarować nam coś, docenilibyśmy małe ulepszenia naszego miesiąca miodowego. Kilka pomysłów:`,
+      "Some inspiration to make our trip more memorable": "Inspiracje, aby nasza podróż była niezapomniana",
+      "honeymoon-breakfast": "Śniadanie w pokoju",
+      "honeymoon-ocean": "Przygoda nad oceanem",
+      "honeymoon-dinner": "Romantyczna kolacja"
     }
   }
 

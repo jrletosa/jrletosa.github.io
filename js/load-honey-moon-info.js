@@ -16,6 +16,10 @@ function loadHoneyMoonInfo(targetElementId) {
     <div class="space-between-h2-content"></div>
     
     <p>${getTranslation('Gifts-text')}</p>
+    
+    <li>${getTranslation('honeymoon-breakfast')}</li>
+    <li>${getTranslation('honeymoon-ocean')}</li>
+    <li>${getTranslation('honeymoon-dinner')}</li>
 `;
 
   targetElement.appendChild(div);
