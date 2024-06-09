@@ -109,15 +109,15 @@ export function getTranslation(key) {
       "Picnic": "Picknick",
       "Speeches": "Tal",
       "Speeches & Performances": "Tal & Framträdanden",
-      "Speech-text": `Om du vill hälla ett tal, uppträda eller underhälla, vänligen kontakta var toastmaster, 
+      "Speech-text": `Om du vill hälla ett tal, upptråda eller underhålla, vänligen kontakta var toastmaster, 
         Anna Diaz pa +46707231206 eller anna_diaz_@hotmail.com.`,
       "Kids": "Barn",
       "Kids-text": `While we wish we could invite all your little ones, it is not possible
         and the invitation is for adults only. Nursing babies are, of course, welcome.
         let's discuss alternative solutions`,
       "Gifts": "Presenter",
-      "Gifts-text": `Er närvaro pả vảrt bröllop är allt vi önskar. Vill ni ända uppmärksamma vảr dag med
-        en gava uppskattar vi smả uppgraderingar för vảr smekmänad. Några idéer:`,
+      "Gifts-text": `Er närvaro på vårt bröllop är allt vi önskar. Vill ni ända uppmärksamma vår dag med
+        en gåva uppskattar vi små uppgraderingar för vår smekmänad. Några idéer:`,
       "Location": "Plats",
         "Some inspiration to make our trip more memorable": "Idéer för att göra vår resa minnesvärd",
       "honeymoon-breakfast": "Frukost på rummet",
