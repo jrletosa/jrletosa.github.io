@@ -30,7 +30,7 @@
 <body>
     <!--<div id="background-image" class="bg-img">-->
     <div id="background-image">
-      <img id="map-image" src="./img/background-2/webhome.jpg"
+      <!--<img id="map-image" src="./img/background-2/webhome.jpg"
         usemap="#image-map"
         class="container-img">
 
@@ -38,6 +38,12 @@
         <area id="details-area"  target="" alt="" title="" href="#" onclick="redirectToAgenda()" onmouseover="changeBackground('./img/background-2/webhome - detailslink.jpg')" onmouseout="changeBackground('../img/background-2/webhome.jpg')" coords="508,200,334,601" shape="rect">
         <area id="rsvp-details" target="" alt="" title="" href="#" onclick="redirectToRSVP()" onmouseover="changeBackground('./img/background-2/webhome - rsvplink.jpg')" onmouseout="changeBackground('../img/background-2/webhome.jpg')" coords="729,78,1055,356" shape="rect">
       </map>
+    -->
+      <a href="https://drive.google.com/drive/folders/1a-cbZ47GQObySuOMAcf_SZ4V1LSo0edg?usp=drive_link" style="display: block; width: 60%; margin: 0 auto;">
+        <img id="map-image" src="./img/Carolina_Jorge_Wedding_group.png"
+          class="container-img" style="height: auto; display: block; margin: 0 auto;">
+      </a>
+
       <script>
         function redirectToRSVP() {
           window.location.href = 'rsvp.html';
@@ -52,6 +58,10 @@
         }
       </script>
       <script src="./js/recompute-map-coordinates.js"></script>
+    </div>
+
+    <div class="link-drive" style="display: flex; justify-content: center; font-family: 'Amelaryas Personal use', sans-serif;">
+      <a href="https://drive.google.com/drive/folders/1a-cbZ47GQObySuOMAcf_SZ4V1LSo0edg?usp=drive_link" id="additional-link">Wedding Photos</a> 
     </div>
 
     <script type="module">
